@@ -46,14 +46,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataAccess\BillingRepository.cs" />
+    <Compile Include="DataAccess\DbConnectionFactory.cs" />
+    <Compile Include="DataAccess\GuestRepository.cs" />
+    <Compile Include="DataAccess\PaymentRepository.cs" />
+    <Compile Include="DataAccess\ReservationRepository.cs" />
+    <Compile Include="DataAccess\RoomRepository.cs" />
+    <Compile Include="DataAccess\UserRepository.cs" />
+    <Compile Include="DTOs\BillingSummaryDto.cs" />
+    <Compile Include="DTOs\DashboardStatsDto.cs" />
+    <Compile Include="DTOs\ReservationSummaryDto.cs" />
+    <Compile Include="DTOs\RoomAvailabilityDto.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Auth\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Auth\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dashboard\frmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dashboard\frmAdminDashboard.Designer.cs">
+      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dashboard\frmFrontDeskDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dashboard\frmFrontDeskDashboard.Designer.cs">
+      <DependentUpon>frmFrontDeskDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\frmRoomDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\frmRoomDetails.Designer.cs">
+      <DependentUpon>frmRoomDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Rooms\frmRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Rooms\frmRooms.Designer.cs">
+      <DependentUpon>frmRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users\frmUserDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users\frmUserDetails.Designer.cs">
+      <DependentUpon>frmUserDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users\frmUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users\frmUsers.Designer.cs">
+      <DependentUpon>frmUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\AuthManager.cs" />
+    <Compile Include="Managers\BillingManager.cs" />
+    <Compile Include="Managers\CheckInManager.cs" />
+    <Compile Include="Managers\CheckOutManager.cs" />
+    <Compile Include="Managers\GuestManager.cs" />
+    <Compile Include="Managers\RateManager.cs" />
+    <Compile Include="Managers\ReservationManager.cs" />
+    <Compile Include="Managers\RoomManager.cs" />
+    <Compile Include="Managers\UserManager.cs" />
+    <Compile Include="Models\DeluxeRoom.cs" />
+    <Compile Include="Models\FrontDeskStaff.cs" />
+    <Compile Include="Models\Guest.cs" />
+    <Compile Include="Models\HotelManager.cs" />
+    <Compile Include="Models\Payment.cs" />
+    <Compile Include="Models\RateConfiguration.cs" />
+    <Compile Include="Models\Reservation.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\StandardRoom.cs" />
+    <Compile Include="Models\Suite.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\Constants.cs" />
+    <Compile Include="Utilities\DateHelper.cs" />
+    <Compile Include="Utilities\PasswordHasher.cs" />
+    <Compile Include="Utilities\ValidationHelper.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +153,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
