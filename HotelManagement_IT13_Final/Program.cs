@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HotelManagement_IT13_Final.Forms.Auth;
+using HotelManagement_IT13_Final.Forms.Dashboard;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,6 +19,8 @@ namespace HotelManagement_IT13_Final
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+            Application.Run(new frmLogin());
+            Application.Run(new frmAdminDashboard());
         }
     }
 }
