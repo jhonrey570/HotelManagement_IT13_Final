@@ -1,7 +1,9 @@
 ﻿using HotelManagement_IT13_Final.Forms.Auth;
+using HotelManagement_IT13_Final.Forms.CheckInOut;
 using HotelManagement_IT13_Final.Forms.Dashboard;
 using HotelManagement_IT13_Final.Forms.Guests;
 using HotelManagement_IT13_Final.Forms.Rates;
+using HotelManagement_IT13_Final.Forms.Reports;
 using HotelManagement_IT13_Final.Forms.Reservations;
 using HotelManagement_IT13_Final.Forms.Rooms;
 using HotelManagement_IT13_Final.Forms.Users;
@@ -35,6 +37,9 @@ namespace HotelManagement_IT13_Final
             Application.Run(new frmGuestDetails());
             Application.Run(new frmGuestSearch());
             Application.Run(new frmReservation());
+            Application.Run(new frmCheckIn());
+            Application.Run(new frmCheckOut());
+            Application.Run(new frmReports());
         }
     }
 }
