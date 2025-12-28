@@ -1,5 +1,7 @@
 ﻿using HotelManagement_IT13_Final.Forms.Auth;
 using HotelManagement_IT13_Final.Forms.Dashboard;
+using HotelManagement_IT13_Final.Forms.Rates;
+using HotelManagement_IT13_Final.Forms.Rooms;
 using HotelManagement_IT13_Final.Forms.Users;
 using System;
 using System.Collections.Generic;
@@ -23,7 +25,11 @@ namespace HotelManagement_IT13_Final
             Application.Run(new frmLogin());
             Application.Run(new frmAdminDashboard());
             Application.Run(new frmUsers());
-
+            Application.Run(new frmUserDetails());
+            Application.Run(new frmRooms());
+            Application.Run(new frmRoomDetails());
+            Application.Run(new frmRatePlans());
+            
         }
     }
 }
