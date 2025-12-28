@@ -213,6 +213,9 @@
     <EmbeddedResource Include="Forms\Rates\frmRatePlans.resx">
       <DependentUpon>frmRatePlans.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reservations\frmReservation.resx">
+      <DependentUpon>frmReservation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Rooms\frmRoomDetails.resx">
       <DependentUpon>frmRoomDetails.cs</DependentUpon>
     </EmbeddedResource>
