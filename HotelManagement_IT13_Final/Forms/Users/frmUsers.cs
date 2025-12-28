@@ -16,5 +16,10 @@ namespace HotelManagement_IT13_Final.Forms.Users
         {
             InitializeComponent();
         }
+
+        private void frmUsers_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
