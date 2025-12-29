@@ -16,5 +16,10 @@ namespace HotelManagement_IT13_Final.Forms.Reports
         {
             InitializeComponent();
         }
+
+        private void frmReports_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

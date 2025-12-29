@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReports));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelSidebar = new System.Windows.Forms.Panel();
@@ -73,11 +72,11 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(20, 15);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(202, 41);
+            this.lblTitle.Size = new System.Drawing.Size(272, 41);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Reports & Analytics";
             // 
@@ -94,11 +93,11 @@
             // lblSidebarTitle
             // 
             this.lblSidebarTitle.AutoSize = true;
-            this.lblSidebarTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSidebarTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblSidebarTitle.ForeColor = System.Drawing.Color.White;
             this.lblSidebarTitle.Location = new System.Drawing.Point(20, 30);
             this.lblSidebarTitle.Name = "lblSidebarTitle";
-            this.lblSidebarTitle.Size = new System.Drawing.Size(82, 28);
+            this.lblSidebarTitle.Size = new System.Drawing.Size(86, 28);
             this.lblSidebarTitle.TabIndex = 0;
             this.lblSidebarTitle.Text = "Reports";
             // 
@@ -118,7 +117,7 @@
             this.tabReports.Controls.Add(this.tabOccupancyReport);
             this.tabReports.Controls.Add(this.tabFinancialReport);
             this.tabReports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabReports.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.tabReports.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.tabReports.Location = new System.Drawing.Point(20, 20);
             this.tabReports.Name = "tabReports";
             this.tabReports.SelectedIndex = 0;
@@ -138,14 +137,14 @@
             // 
             // grpOccupancyReport
             // 
-            this.grpOccupancyReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.grpOccupancyReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpOccupancyReport.BackColor = System.Drawing.Color.White;
             this.grpOccupancyReport.Controls.Add(this.dgvOccupancyReport);
             this.grpOccupancyReport.Controls.Add(this.lblOccupancyTitle);
             this.grpOccupancyReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.grpOccupancyReport.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.grpOccupancyReport.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.grpOccupancyReport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.grpOccupancyReport.Location = new System.Drawing.Point(20, 20);
             this.grpOccupancyReport.Name = "grpOccupancyReport";
@@ -155,8 +154,8 @@
             // 
             // dgvOccupancyReport
             // 
-            this.dgvOccupancyReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.dgvOccupancyReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvOccupancyReport.BackgroundColor = System.Drawing.Color.White;
             this.dgvOccupancyReport.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -171,11 +170,11 @@
             // lblOccupancyTitle
             // 
             this.lblOccupancyTitle.AutoSize = true;
-            this.lblOccupancyTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblOccupancyTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblOccupancyTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.lblOccupancyTitle.Location = new System.Drawing.Point(30, 30);
             this.lblOccupancyTitle.Name = "lblOccupancyTitle";
-            this.lblOccupancyTitle.Size = new System.Drawing.Size(164, 28);
+            this.lblOccupancyTitle.Size = new System.Drawing.Size(186, 28);
             this.lblOccupancyTitle.TabIndex = 2;
             this.lblOccupancyTitle.Text = "Occupancy Report";
             // 
@@ -192,15 +191,15 @@
             // 
             // grpFinancialReport
             // 
-            this.grpFinancialReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-            | System.Windows.Forms.AnchorStyles.Left)
+            this.grpFinancialReport.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpFinancialReport.BackColor = System.Drawing.Color.White;
             this.grpFinancialReport.Controls.Add(this.chartRevenue);
             this.grpFinancialReport.Controls.Add(this.dgvFinancialReport);
             this.grpFinancialReport.Controls.Add(this.lblFinancialTitle);
             this.grpFinancialReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.grpFinancialReport.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.grpFinancialReport.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.grpFinancialReport.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.grpFinancialReport.Location = new System.Drawing.Point(20, 20);
             this.grpFinancialReport.Name = "grpFinancialReport";
@@ -210,28 +209,26 @@
             // 
             // chartRevenue
             // 
-            this.chartRevenue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.chartRevenue.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            chartArea1.Name = "ChartArea1";
-            this.chartRevenue.ChartAreas.Add(chartArea1);
-            this.chartRevenue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            legend1.Name = "Legend1";
-            this.chartRevenue.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartRevenue.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartRevenue.Legends.Add(legend2);
             this.chartRevenue.Location = new System.Drawing.Point(30, 80);
             this.chartRevenue.Name = "chartRevenue";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Column;
-            series1.Color = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
-            series1.Legend = "Legend1";
-            series1.Name = "Revenue";
-            this.chartRevenue.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.Color = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(204)))), ((int)(((byte)(113)))));
+            series2.Legend = "Legend1";
+            series2.Name = "Revenue";
+            this.chartRevenue.Series.Add(series2);
             this.chartRevenue.Size = new System.Drawing.Size(612, 250);
             this.chartRevenue.TabIndex = 4;
             this.chartRevenue.Text = "Revenue Trend";
             // 
             // dgvFinancialReport
             // 
-            this.dgvFinancialReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            this.dgvFinancialReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvFinancialReport.BackgroundColor = System.Drawing.Color.White;
             this.dgvFinancialReport.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -246,11 +243,11 @@
             // lblFinancialTitle
             // 
             this.lblFinancialTitle.AutoSize = true;
-            this.lblFinancialTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblFinancialTitle.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.lblFinancialTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.lblFinancialTitle.Location = new System.Drawing.Point(30, 30);
             this.lblFinancialTitle.Name = "lblFinancialTitle";
-            this.lblFinancialTitle.Size = new System.Drawing.Size(154, 28);
+            this.lblFinancialTitle.Size = new System.Drawing.Size(167, 28);
             this.lblFinancialTitle.TabIndex = 5;
             this.lblFinancialTitle.Text = "Financial Report";
             // 
@@ -263,12 +260,12 @@
             this.Controls.Add(this.panelMainContent);
             this.Controls.Add(this.panelSidebar);
             this.Controls.Add(this.panelHeader);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.Name = "frmReports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hotel Management System - Reports & Analytics";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmReports_Load);
             this.panelHeader.ResumeLayout(false);
             this.panelHeader.PerformLayout();
             this.panelSidebar.ResumeLayout(false);

@@ -40,6 +40,8 @@ namespace HotelManagement_IT13_Final
             Application.Run(new frmCheckIn());
             Application.Run(new frmCheckOut());
             Application.Run(new frmReports());
+            Application.Run(new frmFrontDeskDashboard());
+            
         }
     }
 }
