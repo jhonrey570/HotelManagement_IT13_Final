@@ -1,4 +1,5 @@
 ﻿using HotelManagement_IT13_Final.Forms.Auth;
+using HotelManagement_IT13_Final.Forms.Billing;
 using HotelManagement_IT13_Final.Forms.CheckInOut;
 using HotelManagement_IT13_Final.Forms.Dashboard;
 using HotelManagement_IT13_Final.Forms.Guests;
@@ -41,7 +42,8 @@ namespace HotelManagement_IT13_Final
             Application.Run(new frmCheckOut());
             Application.Run(new frmReports());
             Application.Run(new frmFrontDeskDashboard());
-            
+            Application.Run(new frmBilling());
+            Application.Run(new frmPayment());
         }
     }
 }
